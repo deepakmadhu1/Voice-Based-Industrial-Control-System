@@ -14,14 +14,25 @@ The system bridges the **voice layer** (IT) and **machine control layer** (OT) u
 
 ---
 
-##  Objectives
-- Implement real-time **voice recognition** using the VOSK speech-to-text model.
-- Establish reliable communication between the **voice processor** and **control unit** via **Modbus TCP/IP** and **OPC UA**.
-- Enable **motor control operations** through voice commands.
-- Validate **response time**, **accuracy**, and **protocol integration**.
+## Example Images of Work
 
----
+Modbus TCP/IP Client Running with Voice Recoginition tool
 
+![Dashboard](Images/Modbus_Client_Running_with_Voice_tool.png)
+
+Modbus Server Controlling the Output
+
+![Dashboard](Images/Modbus_Server_Output.png)
+
+
+AASX Blazor OPC UA Server Running
+
+![Dashboard](Images/AASX_Blazor_Running.png)
+
+
+Voice Command Sent via OPCUA Client and updated AASX
+
+![Dashboard](Images/VoiceCommandSent_OPCUA_Client.png)
 
 
 ##  Technologies Used
@@ -47,22 +58,3 @@ The system bridges the **voice layer** (IT) and **machine control layer** (OT) u
    - **OPC UA:** Updates node values in the **Asset Administration Shell (AAS)** digital twin via Blaze Server.
 4. The system logs each command and provides status confirmation.
 
-## Example Images
-
-Modbus TCP/IP Client Running with Voice Recoginition tool
-
-![Dashboard](Images/Modbus_Client_Running_with_Voice_tool.png)
-
-Modbus Server Controlling the Output
-
-![Dashboard](Images/Modbus_Server_Output.png)
-
-
-AASX Blazor OPC UA Server Running
-
-![Dashboard](Images/AASX_Blazor_Running.png)
-
-
-Voice Command Sent via OPCUA Client and updated AASX
-
-![Dashboard](Images/VoiceCommandSent_OPCUA_Client.png)
